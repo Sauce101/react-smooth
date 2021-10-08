@@ -1,5 +1,3 @@
-import svg1 from "../../assets/svg1.svg";
-
 export const homeObjOne = {
   id: "about",
   lightBg: false,
@@ -10,45 +8,47 @@ export const homeObjOne = {
   description:
     "Get access to our exclusive app that allows you to send unlimited transactions whitout getting charged any fees.",
   buttonLabel: "Get started",
+  // flips img with text from left to right
   imgStart: false,
-  img: svg1,
+  img: require("../../images/svg-1.svg").default,
   alt: "Car-1",
   dark: true,
   primary: true,
   darkText: false,
 };
 
-// export const homeObjTwo = {
-//   id: "discover",
-//   lightBg: true,
-//   lightText: false,
-//   lighttextDesc: false,
-//   topLine: "Unlimited Access",
-//   headline: "Login to your account at any time",
-//   description:
-//     "Get access to our exclusive app that allows you to send unlimited transactions whitout getting charged any fees.",
-//   buttonLabel: "Learn More",
-//   imgStart: true,
-//   img: "/images/svg-4.svg",
-//   alt: "Piggybanck",
-//   dark: false,
-//   primary: false,
-//   darkText: true,
-// };
+export const homeObjTwo = {
+  id: "discover",
+  lightBg: true,
+  lightText: false,
+  lighttextDesc: false,
+  topLine: "Unlimited Access",
+  headline: "Login to your account at any time",
+  description:
+    "We have you covered no matter where you are located. All you need is an internet connection and a phone or computer",
+  buttonLabel: "Learn More",
+  imgStart: true,
+  img: require("../../images/svg-2.svg").default,
+  alt: "Piggybank",
+  dark: false,
+  primary: false,
+  darkText: true,
+};
 
-// export const homeObjThree = {
-//   id: "signup",
-//   lightBg: true,
-//   lightText: false,
-//   lighttextDesc: false,
-//   topLine: "Premium Bank",
-//   headline: "Creating an account is extremely easy",
-//   description:
-//     "Get access to our exclusive app that allows you to send unlimited transactions whitout getting charged any fees.",
-//   buttonLabel: "Start Now",
-//   imgStart: false,
-//   img: "/images/svg-3.svg",
-//   alt: "car",
-//   primary: false,
-//   darkText: true,
-// };
+export const homeObjThree = {
+  id: "signup",
+  lightBg: true,
+  lightText: false,
+  lighttextDesc: false,
+  topLine: "Join our Team",
+  headline: "Creating an account is extremely easy",
+  description:
+    "Get everything set up and ready in under 10 minutes. All you need to do is add your information and your ready to go.",
+  buttonLabel: "Start Now",
+  imgStart: false,
+  img: require("../../images/svg-5.svg").default,
+  alt: "Papers",
+  dark: false,
+  primary: false,
+  darkText: true,
+};
